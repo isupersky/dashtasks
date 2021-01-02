@@ -46,7 +46,7 @@ const deleteTask = async (req, res) => {
 }
 
 const updateTask = async (req, res) =>{
-    Users.findOneAndUpdate({ _id: req.body._id },
+    Tasks.findOneAndUpdate({ _id: req.body._id },
     { $set: {
         heading : req.body.heading, 
         description :req.body.description,
