@@ -26,9 +26,9 @@
 
 **Execution on Local** 
 
-git pull https://github.com/isupersky/dashtasks.git
-npm install
-npm start 
+    git pull https://github.com/isupersky/dashtasks.git
+    npm install
+    npm start 
 
 then start the postman and try executing all end points.
 
